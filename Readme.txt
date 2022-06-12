@@ -1,1 +1,1 @@
-Usa una chiamata fetch per costruire la pagina prelevando i dati dal json assegnato
+Aprire server con "live server" su virtual studio code perchè il sito funzioni
