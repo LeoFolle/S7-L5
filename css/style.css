@@ -1,0 +1,70 @@
+body {
+    background: rgb(167,167,167);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 50%, rgba(255,255,255,1) 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2 {
+    font-size: 1.8rem;
+}
+h1 {font-size: 3rem;}
+
+h3 {
+    font-size: 2rem;
+    margin: 1rem 0rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 1rem;
+}
+#header {
+    text-align: center;
+    position: relative;
+    animation: carica 2s;
+}
+
+#person {
+    width: 508px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#person div {
+    width: 400px;
+    position: relative;
+    margin-top: 30px;
+    padding: 1rem 3rem;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: 6px;
+    border-color: gray;
+    animation: carica 2s;
+    transition: 1s;
+}
+@media screen and (min-width:1220px){
+    #person {
+        width: 1200px;
+        display: flex;
+        justify-content: space-between; 
+    }
+    #person div {
+        width: 100%;
+        margin: 2rem;
+        padding: 1rem;
+    }
+}
+
+
+@keyframes carica {
+    0% {top: 100px; opacity: 0;}
+    100% {top:0px; opacity: 1;}
+}

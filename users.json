@@ -1,0 +1,29 @@
+[
+  {
+    "username": "ruth",
+    "firstName": "Ruth",
+    "lastName": "Porat",
+    "gender": "Female",
+    "profileURL": "img/cfo.jpeg",
+    "email": "ruth.porat@google.com",
+    "role": "CFO"
+  },
+  {
+    "username": "larry",
+    "firstName": "Larry",
+    "lastName": "Page",
+    "gender": "Male",
+    "profileURL": "img/founder.jpeg",
+    "email": "larry.page@google.com",
+    "role": "Founder"
+  },
+  {
+    "username": "sundar",
+    "firstName": "Sundar",
+    "lastName": "Pichai",
+    "gender": "Male",
+    "profileURL": "img/ceo.jpeg",
+    "email": "sundar.pichai@google.com",
+    "role": "CEO"
+  }
+]
